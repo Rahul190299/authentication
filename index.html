@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-900 dark:bg-gray-800">
+    <div class="flex justify-between text-white w-3/4 mx-auto">
+        <div class="ml-4 text-lg">
+            <span>Header</span>
+        </div>
+        <div >
+            <button class="mr-4 text-lg" id="signup">Signup</button>
+            <button class="mr-4 text-lg" id="profile">Profile</button>
+        </div>
+    </div>
+    <div class="border-solid border-2 border-white mt-4 "></div>
+    <div class="mx-auto w-2/4 mt-4 text-white">
+        <h1 class=" text-3xl ">Signup</h1>
+        <div  class="mt-4">
+            <span>Full Name</span>
+            <span contenteditable="true" class="ml-4 text-lg px-2" id="username"></span>
+        </div>
+        <div  class="mt-4">
+            <span>Email</span>
+            <span contenteditable="true" class="ml-4 text-lg px-2" id="email"></span>
+        </div>
+        <div  class="mt-4">
+            <span>Password</span>
+            <span contenteditable="true" class="ml-4 text-lg px-2" id="password"></span>
+        </div>
+        <div  class="mt-4">
+            <span>Confirm Password</span>
+            <span contenteditable="true" class="ml-4 text-lg px-2" id="changepass"></span>
+        </div>
+        <div id="errorContainer" ></div>
+        <button id="signUp" class="border-solid border-2 border-white mt-4 bg-white text-black">Signup</button>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
