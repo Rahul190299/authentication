@@ -12,7 +12,7 @@ btn.addEventListener('click',signup);
 const profileBtn =document.getElementById("profile");
 
 profileBtn.addEventListener('click',function(){
-    if(storedUserData==null){
+    if(storedUserData== 'null'){
         window.location.href="index.html";
     }
 });
